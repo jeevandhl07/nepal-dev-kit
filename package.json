@@ -1,7 +1,7 @@
 {
   "name": "@jeevandhl07/nepal-dev-kit",
   "version": "0.1.0",
-  "description": "Nepal-focused developer utilities for JavaScript, TypeScript, React, React Native, Expo, and Next.js.",
+  "description": "Nepali calendar and Bikram Sambat date utilities for JavaScript, TypeScript, React, React Native, Expo, and Next.js.",
   "license": "MIT",
   "author": "Jeevan Dhakal",
   "type": "module",
@@ -95,18 +95,37 @@
   "keywords": [
     "nepali",
     "calendar",
+    "nepali-calendar",
+    "nepali-date",
+    "nepali-date-picker",
     "bikram-sambat",
+    "bikram-sambat-calendar",
+    "bs-calendar",
     "bs-date",
+    "bs-date-picker",
+    "date-converter",
+    "ad-to-bs",
+    "bs-to-ad",
+    "vikram-samvat",
     "nepal",
     "react",
     "react-native",
     "expo",
     "nextjs",
+    "next-js",
     "typescript"
   ],
+  "homepage": "https://github.com/jeevandhl07/nepal-dev-kit#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/jeevandhl07/nepal-dev-kit"
+  },
+  "bugs": {
+    "url": "https://github.com/jeevandhl07/nepal-dev-kit/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "sideEffects": false
 }

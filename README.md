@@ -1,8 +1,10 @@
 # @jeevandhl07/nepal-dev-kit
 
-Nepal-focused developer utilities for JavaScript, TypeScript, React, React Native, Expo, and Next.js.
+Nepali calendar and Bikram Sambat date utilities for JavaScript, TypeScript, React, React Native, Expo, and Next.js.
 
-> **Current focus:** Nepali Calendar (Bikram Sambat) — other utilities coming soon.
+Use this package when you need a Nepali calendar, Bikram Sambat date conversion, BS date utilities, or a Nepali date picker for React and React Native.
+
+> **Current focus:** Nepali Calendar and Bikram Sambat date tools. More Nepal-focused utilities can be added later.
 
 ## Installation
 
@@ -15,6 +17,15 @@ React and React Native are **peer dependencies** — install them separately if 
 ```bash
 npm install react react-native
 ```
+
+## Nepali Calendar Features
+
+- Bikram Sambat year support from `2000` to `2100`
+- AD to BS and BS to AD date conversion
+- React calendar component
+- React Native calendar component
+- Nepali month names and Devanagari digits
+- TypeScript support with ESM and CJS builds
 
 ## Core Usage
 
@@ -37,7 +48,7 @@ convertBSToAD({ year: 2083, month: 2, day: 4 }); // { year: 2026, month: 5, day:
 formatWithDevanagariDigits(2083, true); // "२०८३"
 ```
 
-## React / Next.js
+## React Nepali Calendar
 
 ```tsx
 import { NepaliCalendar } from "@jeevandhl07/nepal-dev-kit/react";
@@ -52,7 +63,7 @@ function App() {
 }
 ```
 
-## React Native / Expo
+## React Native Nepali Calendar
 
 ```tsx
 import { NepaliCalendar } from "@jeevandhl07/nepal-dev-kit/react-native";
@@ -77,7 +88,7 @@ function App() {
 | React Native / Expo      | `@jeevandhl07/nepal-dev-kit/react-native`  |
 | Root (core utilities)    | `@jeevandhl07/nepal-dev-kit`               |
 
-## Calendar Feature List
+## Detailed Feature List
 
 - [x] Bikram Sambat years 2000–2100
 - [x] Lookup-based month lengths (no fake formula)
