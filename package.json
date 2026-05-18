@@ -1,6 +1,6 @@
 {
   "name": "@jeevandhl07/nepal-dev-kit",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Nepali calendar and Bikram Sambat date utilities for JavaScript, TypeScript, React, React Native, Expo, and Next.js.",
   "license": "MIT",
   "author": "Jeevan Dhakal",
